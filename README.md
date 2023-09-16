@@ -1,2 +1,2 @@
 # Showcase-AI-Career-Guide
-![Results Page My App] (ResultsPageMyApp.png)
+![Landing Page](https://github.com/Upal113/Showcase-AI-Career-Guide/blob/main/ResultsPageMyApp.png)
