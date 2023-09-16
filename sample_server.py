@@ -1,9 +1,10 @@
 from flask import Flask, request, jsonify
 import json
 import asyncio
-
+import os
 from flask import Flask
 from flask_cors import CORS
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 CORS(app)
@@ -49,9 +50,10 @@ def recommend_courses():
             jobs_json = json.load(jobs)
 
         import requests
+        load_dotenv()
 
         # Set your OpenAI API key here
-        API_KEY = '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'
+        API_KEY = os.environ.get(API_KEY)
 
         # API endpoint
         API_URL = 'https://api.openai.com/v1/chat/completions'
