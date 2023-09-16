@@ -1,2 +1,2 @@
 # Showcase-AI-Career-Guide
-![Results Page My App] (Results Page My App.png)
+![Results Page My App] (ResultsPageMyApp.png)
