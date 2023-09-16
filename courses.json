@@ -1,0 +1,397 @@
+{
+   "u of i" : {
+  "courses": [
+    {
+      "course_code": "CS 112",
+      "course_name": "Computational Thinking and Problem Solving",
+      "credits": 3,
+      "description": "Introduction to computational thinking and problem solving, including elementary computing concepts such as variables, loops, functions, lists, conditionals, concurrency, data types, simple object oriented concepts, I/O, events, syntax, structured programming, basic concepts of computer organization, editing and the influence of computers in modern society.",
+      "prerequisites": "MATH 108 with a grade of ‘C’ or better; or sufficiently high ACT, SAT, or Math Placement Test score to qualify for MATH 143.",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Problem-solving skills", "Programming fundamentals"],
+        "intermediate": ["Algorithms and flow control", "Basic object-oriented concepts"],
+        "advanced": ["Structured programming", "Basic computer organization"]
+      }
+    },
+    {
+      "course_code": "CS 120",
+      "course_name": "Computer Science I",
+      "credits": 4,
+      "description": "Fundamental programming constructs, algorithms and problem-solving, fundamental data structures, overview of programming languages, virtual machines, introduction to language translation, declarations and types, abstraction mechanisms, object-oriented programming. This course includes a lab.",
+      "prerequisites": "MATH 143 with a grade of ‘C’ or higher or CS 112 with a grade of ‘C’ or higher; or sufficiently high ACT, SAT, or Math Placement Test score to qualify for MATH 170",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Programming fundamentals", "Control structures"],
+        "intermediate": ["Modular programming", "Debugging techniques"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 121",
+      "course_name": "Computer Science II",
+      "credits": 3,
+      "description": "Abstract data types and data structures: linked lists, stacks, queues, trees, and graphs. Methods to implement and algorithms to manipulate these structures. Dynamic memory methods, sequential file processing, additional searching and sorting algorithms, recursion, and object-oriented programming.",
+      "prerequisites": "CS 120 with a grade of ‘C’ or higher",
+      "corequisites": "MATH 176",
+      "skills": {
+        "basic": ["Data structures", "File processing"],
+        "intermediate": ["Algorithm implementation", "Recursion"],
+        "advanced": ["Object-oriented programming"]
+      }
+    },
+    {
+      "course_code": "CS 150",
+      "course_name": "Computer Organization and Architecture",
+      "credits": 3,
+      "description": "Digital logic and digital systems, Machine level representation of data, Assembly level machine organization, Memory system organization and architecture, Interfacing and communication, Functional organization, Multiprocessing and alternative architectures.",
+      "prerequisites": "CS 120",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Digital logic", "Machine level representation"],
+        "intermediate": ["Assembly level organization", "Memory system architecture"],
+        "advanced": ["Computer organization", "Multiprocessing concepts"]
+      }
+    },
+    {
+      "course_code": "CS 204",
+      "course_name": "Special Topics",
+      "credits": "1-16",
+      "description": "Credit arranged",
+      "prerequisites": null,
+      "corequisites": null,
+      "skills": {
+        "basic": [],
+        "intermediate": [],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 210",
+      "course_name": "Programming Languages",
+      "credits": 3,
+      "description": "Major features of good programming languages, with primary emphasis on language features and their role in writing good software; programming language design alternatives; various types of languages, including procedure, data-flow, functional, and object-oriented languages.",
+      "prerequisites": "CS 121",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Programming languages overview", "Language features"],
+        "intermediate": ["Language design principles", "Language paradigms"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 212",
+      "course_name": "Practical Python",
+      "credits": 3,
+      "description": "Introduction to Python programming fundamentals. Basics of Python, algorithm design, and development. Topics include Python types, data structures, and objects. Hands-on programming in various applications of Python from multiple application areas. Exploration of major Python modules.",
+      "prerequisites": "MATH 143 or equivalent",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Python programming", "Algorithm design"],
+        "intermediate": ["Data structures in Python", "Hands-on programming"],
+        "advanced": ["Exploring Python modules"]
+      }
+    },
+    {
+      "course_code": "CS 240",
+      "course_name": "Computer Operating Systems",
+      "credits": 3,
+      "description": "Overview of operating systems, Operating system principles, Concurrency, Scheduling and dispatch, Memory management, Introduction to net-centric computing, OS security. Process management. Concurrent programming using threads.",
+      "prerequisites": "CS 121 and CS 150",
+      "corequisites": "CS 270",
+      "skills": {
+        "basic": ["Operating systems overview", "Operating principles"],
+        "intermediate": ["Concurrency concepts", "Memory management"],
+        "advanced": ["Process management", "Concurrent programming"]
+      }
+    },
+    {
+      "course_code": "CS 270",
+      "course_name": "System Software",
+      "credits": 3,
+      "description": "Programming productivity tools, Debugging tools, Linking and loading, Shell programming and scripting languages, Process management and interprocess communication, Exception handling, Network concepts and network programming.",
+      "prerequisites": "CS 121",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Programming tools", "Debugging techniques"],
+        "intermediate": ["Shell programming", "Process management"],
+        "advanced": ["Network concepts", "Exception handling"]
+      }
+    },
+    {
+      "course_code": "CS 298",
+      "course_name": "Internship",
+      "credits": "1-16",
+      "description": "Credit arranged",
+      "prerequisites": null,
+      "corequisites": null,
+      "skills": {
+        "basic": [],
+        "intermediate": [],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 299",
+      "course_name": "Directed Study",
+      "credits": "1-16",
+      "description": "Credit arranged",
+      "prerequisites": null,
+      "corequisites": null,
+      "skills": {
+        "basic": [],
+        "intermediate": [],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 324",
+      "course_name": "Computer Graphics",
+      "credits": 3,
+      "description": "Use of the computer to define, store, manipulate, and display 2D and 3D objects; 2D curvefitting and 3D surface development.",
+      "prerequisites": "CS 121 and MATH 330",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Computer graphics concepts", "2D and 3D object manipulation"],
+        "intermediate": ["2D curvefitting", "3D surface development"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 328",
+      "course_name": "Introduction to Computer Game Development",
+      "credits": 3,
+      "description": "Introduction to data structures, algorithms, and programming techniques useful in the development of computer games. Topics including 2D graphics, sound programming, user interfaces, game genres, computerization of classic board games and simulation games.",
+      "prerequisites": "CS 210 and CS 240",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Game development basics", "Data structures for games"],
+        "intermediate": ["2D graphics programming", "User interface design"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 336",
+      "course_name": "Introduction to Information Assurance",
+      "credits": 3,
+      "description": "Introduces the confidentiality, availability and integrity goals of information systems; resistance, recognition and response categories of assurance. Focus on computer security and survivability, including cryptography, network security, general purpose operating system security and dependability and special purpose systems for high assurance security and dependability.",
+      "prerequisites": "CS 240",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Information assurance concepts", "Security goals"],
+        "intermediate": ["Cryptography basics", "Network security"],
+        "advanced": ["High assurance systems", "Dependability concepts"]
+      }
+    },
+    {
+      "course_code": "CS 355",
+      "course_name": "Introduction to Robotics",
+      "credits": 3,
+      "description": "Introduction to robotics/mechatronics systems and programming. Examination of robotic stack and software use at different levels. Programming of various robots using Python and ROS2. Use of feedback in robotic systems, robotic vision with camera systems.",
+      "prerequisites": "CS 120 and CS 121 or by Instructor Permission",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Robotics fundamentals", "Robotic software stack"],
+        "intermediate": ["Python programming for robotics", "Robot programming"],
+        "advanced": ["Feedback systems", "Robotic vision"]
+      }
+    },
+    {
+      "course_code": "CS 360",
+      "course_name": "Database Systems",
+      "credits": 4,
+      "description": "Study of database design and implementation; comparison of basic models (entity-relationship, hierarchical, network, relational); study of query languages; discussion of issues of integrity, security, dependencies, and normal forms.",
+      "prerequisites": "CS 121 and CS 150",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Database design principles", "Database models"],
+        "intermediate": ["Query languages", "Database integrity"],
+        "advanced": ["Database security", "Normalization techniques"]
+      }
+    },
+    {
+      "course_code": "CS 383",
+      "course_name": "Software Engineering",
+      "credits": 4,
+      "description": "Current topics in development of software systems; software life cycle model, requirements definition, requirements analysis, software specification, software architectural design, engineering discipline in software development, software measurement, user interface design, legal and ethical issues in software product development. Projects are developed to demonstrate application of concepts.",
+      "prerequisites": "A grade of C or better in CS 240 and CS 270, and a grade of C or better in either CS 210 or CYB 220.",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Software engineering concepts", "Requirements analysis"],
+        "intermediate": ["Software architecture", "User interface design"],
+        "advanced": ["Software measurement", "Ethical considerations"]
+      }
+    },
+    {
+      "course_code": "CS 385",
+      "course_name": "Theory of Computation",
+      "credits": 3,
+      "description": "Mathematical models of computation, including finite automata and Turing machines. (Fall only)",
+      "prerequisites": "Permission",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Computation models", "Finite automata"],
+        "intermediate": ["Turing machines", "Formal languages"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 395",
+      "course_name": "Analysis of Algorithms",
+      "credits": 3,
+      "description": "Measures of efficiency; standard methods and examples in the design, implementation, and analysis of algorithms. (Spring only)",
+      "prerequisites": "MATH 175 and CS 121",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Algorithm efficiency", "Algorithm design"],
+        "intermediate": ["Algorithm implementation", "Algorithm analysis"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 398",
+      "course_name": "Computer Science Cooperative Internship",
+      "credits": "1-3",
+      "description": "Supervised internship in professional computer science settings, integrating academic study with work experience; requires formal plan of activities before co-op assignment and final written report evaluated by on-campus faculty members. Graded P/F.",
+      "prerequisites": "Permission",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Professional experience", "Work integration"],
+        "intermediate": ["Real-world application", "Work report"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 400",
+      "course_name": "Seminar",
+      "credits": "1-16",
+      "description": "Technical topics, employment practices, interviewing, and current research topics. Graded P/F. One lecture a week. Typically Offered: Fall and Spring.",
+      "prerequisites": "Senior standing in CS",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Technical presentations", "Career preparation"],
+        "intermediate": ["Research discussions", "Interview techniques"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 404",
+      "course_name": "Special Topics",
+      "credits": "1-16",
+      "description": "Credit arranged",
+      "prerequisites": null,
+      "corequisites": null,
+      "skills": {
+        "basic": [],
+        "intermediate": [],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 411",
+      "course_name": "Parallel Programming",
+      "credits": 3,
+      "description": "Analysis, mapping, and application of parallel programming software to high-performance systems; principles of spatial- and temporal-locality of data memory hierarchies; tradeoff between threaded (shared memory) and message-passing (distributed memory) programming styles and performance.",
+      "prerequisites": "CS 395",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Parallel programming basics", "Performance analysis"],
+        "intermediate": ["Memory hierarchy", "Threading and message-passing"],
+        "advanced": ["High-performance computing", "Performance optimization"]
+      }
+    },
+    {
+      "course_code": "CS 415",
+      "course_name": "Computational Biology: Sequence Analysis",
+      "credits": 3,
+      "description": "Design and analyze algorithms for computational problems posed by biological sequence data, such as DNA or protein sequences. Topics include comparing sequences, database searching, sequence alignment, phylogenetic inferencing, gene discovery, annotation, and genome assembly.",
+      "prerequisites": "Knowledge of high-level programming language, basic probability theory, basic molecular biology, or Permission",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Biology and computation", "Sequence comparison"],
+        "intermediate": ["Sequence alignment", "Phylogenetic analysis"],
+        "advanced": ["Gene annotation", "Genome assembly"]
+      }
+    },
+    {
+      "course_code": "CS 420",
+      "course_name": "Data Communication Systems",
+      "credits": 3,
+      "description": "Concept and terminology of data communications, equipment, protocols (including ISO/OSI and TCP/IP), architectures; transmission alternatives, regulatory issues and network management.",
+      "prerequisites": "CS 150 and CS 240",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Data communication concepts", "Networking protocols"],
+        "intermediate": ["ISO/OSI and TCP/IP", "Network architectures"],
+        "advanced": ["Network management", "Regulatory considerations"]
+      }
+    },
+    {
+      "course_code": "CS 428",
+      "course_name": "Multi-User Games and Virtual Environments",
+      "credits": 3,
+      "description": "Software design and programming issues in constructing multi-user computer games and virtual environments, incorporating networking and 3D graphics.",
+      "prerequisites": "CS 210, CS 324, and CS 328",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Multi-user games concepts", "Virtual environment design"],
+        "intermediate": ["Networking integration", "3D graphics programming"],
+        "advanced": ["Multi-user game development", "Networking optimization"]
+      }
+    },
+    {
+      "course_code": "CS 431",
+      "course_name": "SFS Professional Development",
+      "credits": 3,
+      "description": "Reserved for CyberCorps(R) Scholarship for Service program participants. Typically Offered: Fall and Spring.",
+      "prerequisites": "Instructor Permission",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Professional development", "Cybersecurity concepts"],
+        "intermediate": ["Career preparation", "Cybersecurity practices"],
+        "advanced": []
+      }
+    },
+    {
+      "course_code": "CS 438",
+      "course_name": "Network Security",
+      "credits": 3,
+      "description": "Practical topics in network security; policy and mechanism, malicious code; intrusion detection, prevention, response; cryptographic techniques for privacy and integrity; emphasis on trade-offs between risk of misuse, cost of prevention, and societal issues.",
+      "prerequisites": "CS 336",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Network security basics", "Malicious code"],
+        "intermediate": ["Intrusion detection", "Cryptography techniques"],
+        "advanced": ["Risk assessment", "Societal considerations"]
+      }
+    },
+    {
+      "course_code": "CS 439",
+      "course_name": "Applied Security Concepts",
+      "credits": 3,
+      "description": "Hands-on approach to computer security with emphasis on developing practical knowledge of cyber attacks and defenses. Exploration of attacks and development of defenses against them.",
+      "prerequisites": "CS 336 or Permission",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Computer security principles", "Attack analysis"],
+        "intermediate": ["Attack mitigation", "Defense strategies"],
+        "advanced": ["Security implementation", "Attack simulation"]
+      }
+    },
+    {
+      "course_code": "CS 441",
+      "course_name": "Advanced Operating Systems",
+      "credits": 3,
+      "description": "Principles of contemporary operating systems for network and distributed computer systems; processes, scheduling, synchronization, device management, file systems, memory management, protection, and security.",
+      "prerequisites": "CS 240",
+      "corequisites": null,
+      "skills": {
+        "basic": ["Advanced OS principles", "Network OS concepts"],
+        "intermediate": ["Process management", "Memory and file systems"],
+        "advanced": ["Security mechanisms", "Distributed systems"]
+      }
+    }
+  ]
+}
+
+}

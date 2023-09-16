@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Selection</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body> 
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Course Selection</h1>
+    <form id="courseForm">
+      <div class="mb-3">
+        <label for="courses" class="form-label">Select Courses:</label>
+        <select id="courses" multiple class="form-select">
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    const courseSelect = document.getElementById('courses');
+    const courseForm = document.getElementById('courseForm');
+    let data;
+    fetch("courses.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data);
+  </script>
+</body>
+</html>

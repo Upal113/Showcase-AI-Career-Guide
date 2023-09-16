@@ -1,0 +1,204 @@
+{
+    "jobs": [
+        {
+            "company": "ABC Conz",
+            "job": "SQL Intern",
+            "industry": "IT",
+            "skills": {
+                "basic": ["Database", "Programming"],
+                "intermediate": ["SQL", "Python", "C++"],
+                "advanced": ["Database design"]
+            }
+        },
+        {
+            "company": "XYZ Tech",
+            "job": "Software Developer",
+            "industry": "IT",
+            "skills": {
+                "basic": ["Programming"],
+                "intermediate": ["Java", "Git", "Problem Solving"],
+                "advanced": ["Software Architecture"]
+            }
+        },
+        {
+            "company": "Tech Innovators",
+            "job": "Data Analyst",
+            "industry": "IT",
+            "skills": {
+                "basic": ["Data Analysis", "Excel"],
+                "intermediate": ["SQL", "Python", "Statistics"],
+                "advanced": ["Machine Learning"]
+            }
+        },
+        {
+            "company": "E-commerce Solutions",
+            "job": "Digital Marketing Specialist",
+            "industry": "Marketing",
+            "skills": {
+                "basic": ["Marketing", "Social Media"],
+                "intermediate": ["SEO", "Google Ads", "Analytics"],
+                "advanced": ["Marketing Strategy"]
+            }
+        },
+        {
+            "company": "HealthCare Innovations",
+            "job": "Medical Research Assistant",
+            "industry": "Healthcare",
+            "skills": {
+                "basic": ["Biology", "Research Methods"],
+                "intermediate": ["Data Analysis", "Lab Techniques"],
+                "advanced": ["Clinical Studies"]
+            }
+        },
+        {
+            "company": "Global Finance Group",
+            "job": "Financial Analyst",
+            "industry": "Finance",
+            "skills": {
+                "basic": ["Finance", "Excel"],
+                "intermediate": ["Financial Modeling", "Data Analysis", "Accounting"],
+                "advanced": ["Risk Management"]
+            }
+        },
+        {
+            "company": "GreenTech Solutions",
+            "job": "Sustainability Consultant",
+            "industry": "Environment",
+            "skills": {
+                "basic": ["Environmental Awareness", "Communication"],
+                "intermediate": ["Renewable Energy", "Climate Policies"],
+                "advanced": ["Sustainable Business Strategies"]
+            }
+        },
+        {
+            "company": "Creative Designs Inc.",
+            "job": "Graphic Designer",
+            "industry": "Design",
+            "skills": {
+                "basic": ["Design Principles", "Adobe Creative Suite"],
+                "intermediate": ["Illustration", "Typography", "UI/UX"],
+                "advanced": ["Brand Identity"]
+            }
+        },
+        {
+            "company": "Innovate Robotics",
+            "job": "Robotics Engineer",
+            "industry": "Engineering",
+            "skills": {
+                "basic": ["Engineering Fundamentals", "Programming"],
+                "intermediate": ["Mechatronics", "ROS", "Sensor Integration"],
+                "advanced": ["Autonomous Navigation"]
+            }
+        },
+        {
+            "company": "TravelWanderlust",
+            "job": "Travel Blogger",
+            "industry": "Writing",
+            "skills": {
+                "basic": ["Writing", "Social Media"],
+                "intermediate": ["Photography", "Content Creation", "Blogging"],
+                "advanced": ["SEO for Blogging"]
+            }
+        },
+        {
+            "company": "TechGenius Corp",
+            "job": "Cybersecurity Analyst",
+            "industry": "IT",
+            "skills": {
+                "basic": ["Networking", "Security Fundamentals"],
+                "intermediate": ["Firewalls", "Intrusion Detection", "Encryption"],
+                "advanced": ["Incident Response", "Penetration Testing"]
+            }
+        },
+        {
+            "company": "FashionForward Inc.",
+            "job": "Fashion Merchandiser",
+            "industry": "Retail",
+            "skills": {
+                "basic": ["Fashion Trends", "Inventory Management"],
+                "intermediate": ["Market Research", "Visual Merchandising"],
+                "advanced": ["Buying Strategies", "Supply Chain Coordination"]
+            }
+        },
+        {
+            "company": "TechHealth Innovations",
+            "job": "HealthTech Product Manager",
+            "industry": "Healthcare",
+            "skills": {
+                "basic": ["Product Management", "Healthcare Domain"],
+                "intermediate": ["Agile Methodology", "User-Centered Design"],
+                "advanced": ["HealthTech Regulations", "Product Roadmapping"]
+            }
+        },
+        {
+            "company": "TravelTech Solutions",
+            "job": "Travel App Developer",
+            "industry": "IT",
+            "skills": {
+                "basic": ["Mobile App Development", "Programming"],
+                "intermediate": ["iOS Development", "Android Development", "UI/UX"],
+                "advanced": ["Cross-Platform Development", "API Integration"]
+            }
+        },
+        {
+            "company": "BioPharma Research",
+            "job": "Biomedical Scientist",
+            "industry": "Science",
+            "skills": {
+                "basic": ["Biology", "Laboratory Techniques"],
+                "intermediate": ["Cell Culture", "Molecular Biology", "Data Analysis"],
+                "advanced": ["Drug Development", "Experimental Design"]
+            }
+        },
+        {
+            "company": "EduLearn Academy",
+            "job": "Online Tutor",
+            "industry": "Education",
+            "skills": {
+                "basic": ["Subject Knowledge", "Communication"],
+                "intermediate": ["Online Teaching Platforms", "Pedagogical Techniques"],
+                "advanced": ["Curriculum Development", "Student Assessment"]
+            }
+        },
+        {
+            "company": "GreenSolutions",
+            "job": "Renewable Energy Engineer",
+            "industry": "Environment",
+            "skills": {
+                "basic": ["Engineering Fundamentals", "Sustainability"],
+                "intermediate": ["Solar Energy", "Wind Energy", "Energy Storage"],
+                "advanced": ["Energy System Design", "Environmental Impact Assessment"]
+            }
+        },
+        {
+            "company": "MediaMinds Network",
+            "job": "Content Strategist",
+            "industry": "Marketing",
+            "skills": {
+                "basic": ["Content Planning", "Copywriting"],
+                "intermediate": ["SEO", "Social Media", "Analytics"],
+                "advanced": ["Audience Segmentation", "Content Calendar Management"]
+            }
+        },
+        {
+            "company": "AeroDynamics Ltd.",
+            "job": "Aerospace Engineer",
+            "industry": "Engineering",
+            "skills": {
+                "basic": ["Aerospace Fundamentals", "CAD"],
+                "intermediate": ["Aerodynamics", "Structural Analysis", "Materials Science"],
+                "advanced": ["Flight Testing", "Spacecraft Design"]
+            }
+        },
+        {
+            "company": "TechNews Network",
+            "job": "Tech Journalist",
+            "industry": "Writing",
+            "skills": {
+                "basic": ["Writing", "Research"],
+                "intermediate": ["Technology Trends", "Interviewing", "Editing"],
+                "advanced": ["Tech Analysis", "Journalistic Ethics"]
+            }
+        }
+    ]
+}

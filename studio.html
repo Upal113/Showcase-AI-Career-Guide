@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Page</title>
+    <!-- Link to Bootstrap CSS from a CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar for Top 10% -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Company Logo -->
+            <a class="navbar-brand" href="#"><img src="your-logo.png" alt="Company Logo" width="100"></a>
+            
+            <!-- Navbar Toggler Button (for mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links (Right-aligned) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> <!-- Updated class to ml-auto -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Launch Immersive Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Get Us to Your University</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Filter Section -->
+    <div class="container mt-4">
+        <h2>Filter by Industry and Courses</h2>
+        
+        <!-- Industry Multi-select Input -->
+        <div class="mb-3">
+            <label for="industrySelect" class="form-label">Select Industry</label>
+            <select multiple class="form-select" id="industrySelect">
+                <!-- Options will be populated dynamically using JavaScript -->
+            </select>
+        </div>
+        
+        <!-- Courses Multi-select Input -->
+        <div class="mb-3">
+            <label for="coursesSelect" class="form-label">Select Courses</label>
+            <select multiple class="form-select" id="coursesSelect">
+                <!-- Options will be populated dynamically using JavaScript -->
+            </select>
+        </div>
+        
+        <button class="btn btn-primary" id="applyFilters">Apply Filters</button>
+    </div>
+
+    <!-- Recommendations Section -->
+    <div class="container mt-4">
+        <h2>Recommendations</h2>
+        <div id="recommendations"></div>
+    </div>
+    <script>
+        // Fetch the JSON data for industries
+fetch('jobs.json')
+.then(response => response.json())
+.then(data => {
+    const industrySelect = document.getElementById('industrySelect');
+    const industries = [...new Set(data.jobs.map(job => job.industry))];
+
+    industries.forEach(industry => {
+        const option = document.createElement('option');
+        option.value = industry;
+        option.textContent = industry;
+        industrySelect.appendChild(option);
+    });
+})
+.catch(error => console.error('Error fetching JSON:', error));
+
+// Fetch the JSON data for courses
+fetch('courses.json')
+.then(response => response.json())
+.then(data => {
+const coursesSelect = document.getElementById('coursesSelect');
+
+for (const university in data) {
+    if (data.hasOwnProperty(university)) {
+        const courses = data[university].courses;
+        courses.forEach(course => {
+            const option = document.createElement('option');
+            option.value = course.course_code;
+            option.textContent = course.course_code + ' - ' + course.course_name;
+            coursesSelect.appendChild(option);
+        });
+    }
+}
+})
+.catch(error => console.error('Error fetching JSON:', error));
+
+// Function to create and display a card for a job recommendation
+function displayRecommendation(job, company, industry, recommendation) {
+const recommendationsDiv = document.getElementById('recommendations');
+
+// Create a Bootstrap card
+const card = document.createElement('div');
+card.classList.add('card', 'mb-3');
+
+// Create card body
+const cardBody = document.createElement('div');
+cardBody.classList.add('card-body');
+
+// Add job title to the card
+const jobTitle = document.createElement('h5');
+jobTitle.classList.add('card-title');
+jobTitle.textContent = `Job: ${job}`;
+cardBody.appendChild(jobTitle);
+
+// Add company to the card
+const companyText = document.createElement('p');
+companyText.classList.add('card-text');
+companyText.textContent = `Company: ${company}`;
+cardBody.appendChild(companyText);
+
+// Add industry to the card
+const industryText = document.createElement('p');
+industryText.classList.add('card-text');
+industryText.textContent = `Industry: ${industry}`;
+cardBody.appendChild(industryText);
+
+// Add recommendation to the card
+const recommendationText = document.createElement('p');
+recommendationText.classList.add('card-text');
+recommendationText.textContent = `Recommendation: ${recommendation}`;
+cardBody.appendChild(recommendationText);
+
+card.appendChild(cardBody);
+
+recommendationsDiv.appendChild(card);
+}
+
+document.getElementById('applyFilters').addEventListener('click', function () {
+// Clear previous recommendations
+document.getElementById('recommendations').innerHTML = '';
+
+// Get selected industry and course options
+const selectedIndustryOptions = Array.from(document.getElementById('industrySelect').selectedOptions).map(option => option.value);
+const selectedCourseOptions = Array.from(document.getElementById('coursesSelect').selectedOptions).map(option => option.value);
+
+// Create JSON object with selected options
+const requestData = {
+    "courses": selectedCourseOptions,
+    "industry": selectedIndustryOptions
+};
+
+// Send a POST request to the Flask API endpoint
+fetch('http://127.0.0.1:5000/recommend', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(requestData)
+})
+.then(response => {
+    console.log('Request URL:', response.url); // Log the request URL for monitoring
+    return response.json();
+})
+.then(data => {
+    console.log('Recommendation:', data.recommendation);
+    // Display recommendations
+    displayRecommendation(data.Job, data.Company, data.industry, data.recommendation);
+})
+.catch(error => console.error('Error:', error));
+});
+    </script>
+</body>
+</html>

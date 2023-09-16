@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Company</title>
+    <!-- Custom CSS for Logo Animation -->
+    <!-- Custom CSS for Logo Animation -->
+    <style>
+        .partners-section {
+            text-align: center;
+            padding: 50px 0;
+            overflow: hidden;
+        }
+
+        .partners-header {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .partner-logo {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            transition: transform 5s linear; /* Adjust animation duration here */
+        }
+
+        .partner-logo:hover {
+            transform: scale(1.2);
+        }
+
+        .logo-row {
+            white-space: nowrap;
+            animation: moveLeft 30s linear infinite; /* Adjust animation duration here */
+        }
+
+        .logo-container {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        @keyframes moveLeft {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+    <!-- Link to Bootstrap CSS from a CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Navbar for Top 10% -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Company Logo -->
+            <a class="navbar-brand" href="#"><img src="your-logo.png" alt="Company Logo" width="100"></a>
+            
+            <!-- Navbar Toggler Button (for mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links (Right-aligned) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> <!-- Updated class to ml-auto -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/studio.html">Launch Immersive Studio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/events.html">Get Us to Your University</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider for Next 40% -->
+    <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/Rediscover your career with.png" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/Roadmap.png" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/Hackathon.png" class="d-block w-100" alt="Image 3">
+            </div>
+        </div>
+    
+        <!-- Add Previous and Next Controls -->
+        <a class="carousel-control-prev" href="#imageSlider" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#imageSlider" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <!-- Content for the Following 40% -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Left Half for Header and Description -->
+            <div class="col-md-6">
+                <h2>Our AI-Powered Solutions</h2>
+                <p>Welcome to [Your SAAS Name], your personalized course and career roadmap builder! We're here to empower students like you on your educational and career journey. Our cutting-edge AI technology is designed to help you make informed decisions about your courses and industry preferences. Plus, we offer affordable boot camps right on your university campus to enhance your skills and knowledge.</p>
+            </div>
+            
+            <!-- Right Half for AI Picture -->
+            <div class="col-md-6">
+                <img src="/assets/AI Your Future.png" alt="AI Picture" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+<!-- How It Works Section -->
+<div class="container mt-4">
+    <header class="text-center">
+        <h1>How It Works</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p class="small" style="font-size: 16px;">
+                Personalized Course Selection: Our AI analyzes your academic interests, strengths, and goals to recommend the best courses tailored to your needs. <br>
+
+                Industry Exploration: Discover various industries and gain insights into career options that align with your passions and skillset.<br>
+
+                AI-Generated Roadmaps: Receive a step-by-step career roadmap generated by AI, outlining the courses, skills, and experiences needed to achieve your goals.<br>
+
+                Affordable Boot Camps: Join our on-campus boot camps at pocket-friendly rates to gain practical skills and network with industry professionals.<br>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Benefits Section -->
+<div class="container mt-4">
+    <header class="text-center">
+        <h1>Benefits</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p class="small" style="font-size: 16px;">
+                - Empowerment: Take control of your education and career path with data-driven insights and recommendations.<br>
+
+                - Efficiency: Save time and money by enrolling in courses that align with your career aspirations.<br>
+
+                - Affordability: Access high-quality, low-cost boot camps right at your university to boost your skills and employability.<br>
+
+                - Career Readiness: Be better prepared for your dream job with personalized roadmaps and hands-on experience.<br>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Our Mission Section -->
+<div class="container mt-4">
+    <header class="text-center">
+        <h1>Our Mission</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p class="small" style="font-size: 16px;">
+                At [Your SAAS Name], our mission is to democratize education and career guidance. We believe that every student should have access to affordable, personalized, and effective tools to help them succeed in their academic and professional pursuits. We're committed to making education and career planning easier and more accessible for all.<br>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Get Started Section -->
+<div class="container mt-4">
+    <header class="text-center">
+        <h1>Get Started Today</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p class="small" style="font-size: 16px;">
+                Ready to embark on your educational and career journey with [Your SAAS Name]? Try our studio now and take the first step towards a brighter future. Let's build your roadmap together!<br>
+            </p>
+            <a href="/studio.html" class="btn btn-primary">Sign Up</a>
+        </div>
+    </div>
+</div>
+
+    <!--Clients Section-->
+    <section class="partners-section">
+        <h2 class="partners-header">Our Partners</h2>
+    
+        <!-- First Line of Partner Logos -->
+        <div class="logo-row animate-logo-row" id="firstRow">
+            <!-- Logos will be dynamically added here using JavaScript -->
+        </div>
+    
+        <!-- Second Line of Partner Logos -->
+        <div class="logo-row animate-logo-row" id="secondRow">
+            <!-- Logos will be dynamically added here using JavaScript -->
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Contact Us</h4>
+                <p>1234 Main Street, City Name</p>
+                <p>Email: info@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Follow Us</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript to Generate Company Logo Avatars -->
+<script>
+    // Function to generate random company logo avatars using UI Avatars API
+    async function generateCompanyLogos(numLogos) {
+        const logos = [];
+
+        for (let i = 0; i < numLogos; i++) {
+            const logoUrl = `https://ui-avatars.com/api/?background=random&name=Company${i + 1}&size=100`;
+            logos.push(logoUrl);
+        }
+
+        return logos;
+    }
+
+    // Function to populate logos with generated avatars
+    async function populateLogos() {
+        const firstRow = document.getElementById('firstRow');
+        const secondRow = document.getElementById('secondRow');
+
+        const numLogosPerRow = 15;
+        const logoUrls = await generateCompanyLogos(numLogosPerRow * 2); // Generate 30 logos (15 for each row)
+
+        logoUrls.forEach((logoUrl) => {
+            const imgElement = document.createElement('img');
+            imgElement.src = logoUrl;
+            imgElement.alt = 'Company Logo';
+            imgElement.classList.add('partner-logo');
+
+            const logoContainer = document.createElement('div');
+            logoContainer.classList.add('logo-container');
+            logoContainer.appendChild(imgElement);
+
+            firstRow.appendChild(logoContainer);
+        });
+
+        // Clone logos from the first row to the second row to create a seamless loop
+        const firstRowClones = firstRow.cloneNode(true);
+        secondRow.appendChild(firstRowClones);
+    }
+
+    // Call the function to populate logos on page load
+    populateLogos();
+    </script>
+</body>
+</html>
