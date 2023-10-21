@@ -1,5 +1,5 @@
 # Showcase-AI-Career-Guide
-<iframe src="https://www.canva.com/design/DAFvM6wNCNQ/view" width="100%" height="100%"></iframe>
+[![Canva Design](https://www.canva.com/design/DAFvM6wNCNQ/view)](https://www.canva.com/design/DAFvM6wNCNQ/view)
 AI Career Guide is an innovative initiative currently under development, poised to revolutionize how students leverage their college-acquired skills for future career success. Our mission is to assist students in optimizing their skill sets for their dream jobs and desired companies using the power of artificial intelligence. We provide a personalized AI-driven roadmap to guide them toward their goals.
 
 As we continue to develop this platform, we are actively seeking partnerships with industry leaders and respected organizations. Together, we aim to provide top-notch boot camp experiences to enhance students' readiness for their future careers.
